@@ -45,8 +45,11 @@ body{
     border-radius: 2rem;
     border: var(--border);
 }
-
-
+.container h3{
+    padding: 0 0 .5rem .3rem;
+    text-decoration: underline;
+    font-size: .8rem;
+}
 .heading {
     display: flex;
     justify-content: center;
@@ -100,6 +103,7 @@ input.btn {
     background: antiquewhite;
     border-radius: 1rem;
     padding: .1rem .5rem;
+    cursor: pointer;
 }
 
 .listContainer{
@@ -128,4 +132,5 @@ input.btn {
 
 .container .clear .btn{
     width: 100%;
+    cursor: pointer;
 }
