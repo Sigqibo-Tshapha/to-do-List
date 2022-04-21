@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Importing stylesheet-->
     <link rel="stylesheet" href="CSS/style.css">
     <!--Fontawesome link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -14,16 +15,17 @@
 <body>
     <div class="container">
         <div class="heading">"To Do" <span>List</span></div>
-        <form action="">
+        <form action="#">
             <div class="inputBox">
                 <input type="text" class="itemTxt" id="txtField" placeholder="enter task e.g(fold laundry)">
             </div>
-            <input class="btn" type="submit" class="btn" id="toDoBtn" value="Add">
+            <input class="btn" type="button" id="toDoBtn" value="Add">
         </form>
+        <h3>click once on task to strike it through, click twice to remove it.</h3>
         <div class="listContainer" id="toDoContainer">
         </div>
         <div class="clear">
-            <input  type="submit" id="clearBtn" class="btn" value="Clear all">
+            <input  type="button" id="clearBtn" class="btn" value="Clear all">
         </div>
     </div>
 </body>
